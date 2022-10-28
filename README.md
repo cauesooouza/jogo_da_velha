@@ -1,2 +1,2 @@
-# jogo_da_velha
-Jogo da velha feito com modelo MVC
+# Jogo da velha
+Jogo da velha feito sass e js

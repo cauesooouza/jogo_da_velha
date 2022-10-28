@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="shortcut icon" href="./src/img/ico.ico" type="image/x-icon">
+    <script src="./src/app/game.js" defer></script>
+    <script src="./src/app/interface.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Jogo da velha</h1>
+        <div class="board">
+            <div class="square" id="0"></div>
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+        </div>
+        <div class="game-over">
+        </div>
+        <button class="reset" onclick="newGame()">New game</button>
+    </main>
+</body>
+</html>
